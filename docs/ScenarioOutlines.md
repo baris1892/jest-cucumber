@@ -40,7 +40,7 @@ defineFeature(feature, test => {
     });
 
     when(/^I sell the (.*)$/, itemName, => {
-      salesPrise = onlineSales.sell(itemName);
+      salesPrice = onlineSales.sell(itemName);
     });
 
     then(/^I should get \$(\d+)$/, amount => {
